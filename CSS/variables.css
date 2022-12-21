@@ -1,5 +1,6 @@
 :root {
   --yellow: #fae100;
   --u_gray: #fafafa;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
   --horizontal-space: 25px;
 }
