@@ -1,7 +1,7 @@
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: var(--u_gray);
+  background-color: var(--screen_gray);
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 15px;
@@ -26,5 +26,5 @@
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--user_font_gray);
 }

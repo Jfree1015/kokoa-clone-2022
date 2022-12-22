@@ -13,6 +13,28 @@
   font-weight: 500;
 }
 
-.screen-header__icons span {
+.screen-header__icons > div {
   margin-left: 25px;
+}
+
+.screen-header__icons {
+  display: flex;
+}
+
+.screen-header__icons-cog {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen-header__notification_elli {
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  display: flex;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -8px;
 }
