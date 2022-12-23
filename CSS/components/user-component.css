@@ -24,6 +24,9 @@
   margin-top: 8px;
   font-size: 17px;
   color: var(--user_font_gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .user-component__avatar--sm {
@@ -51,4 +54,17 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: tomato;
+  border: 1px solid tomato;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  font-size: 12px;
+  margin-left: 5px;
 }
